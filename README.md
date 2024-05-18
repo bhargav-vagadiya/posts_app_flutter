@@ -1,16 +1,28 @@
-# bhargav_posts_app
+# posts_app_flutter
 
-A new Flutter project.
+A Simple post app
+## Demo
+link: https://drive.google.com/drive/folders/1l2teEmJMF4Ro5rb_-oMSdYb4s6xc8PVg?usp=sharing
 
+
+## Flutter version: 3.22.0
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### How to run the app?
+- Before running the app, make sure you have the latest flutter version as mentioned above
+- Open project path in terminal
+- Type flutter run and press enter to run the app
 
-A few resources to get you started if this is your first Flutter project:
+## Packages Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### dio
+- Used dio for network calls
+### hive
+- Used hive for local storage, mark post and read and update the timer
+### provider
+- Used provider for state management
+### visibility_detector
+- Used visibility_detector for detect whether post is visible or not when scrolling so we can pause/resume the timer
+### collection
+- Used collection for filtering
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
